@@ -699,6 +699,66 @@ footer {
   fill: #ffffff;
 }
 
+/* часть инпут с кнопкой */
+
+.subscription {
+  margin-left: 95px;
+  padding-top: 9px;
+}
+
+.subscription-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 9px;
+  padding-bottom: 20px;
+}
+
+.subscription-box {
+  padding: 0;
+}
+
+.email-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 15px 0 15px 16px;
+}
+
+.button-subscribe {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: left;
+  letter-spacing: 6%;
+  color: #ffffff;
+  position: relative;
+  padding-left: 29px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.subscription svg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
 /* Портфолио */
 
 .main-projects {
