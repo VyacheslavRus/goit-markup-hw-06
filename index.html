@@ -56,14 +56,8 @@
     <h1 class="hero-title">Эффективные решения</br> для вашего бизнеса</h1>
     <button type="button" class="button" data-modal-open>Заказать услугу</button>   
   </div>
-
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <button class="button-close" data-modal-close></button>
-    </div>
-  </div>
   </section>
-    
+            
       <!--Преимущества-->
 
   <section>
@@ -371,6 +365,55 @@
       </div>
       </div>
     </footer>
+
+
+<!-- Модальное окно -->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="button-close" data-modal-close>
+      <svg class="icon-close-svg">
+        <use href="./images/icon3/Closed.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+    <form class="input-box" autocomplete="on">
+      <label for="name-input">Имя</label>
+      <div class="icon-input">
+        <input type="text" id="name_input" class="input-style" name="name">
+        <svg class="man-svg">
+          <use href="./images/icon3/man.svg#icon-man"></use>
+        </svg>
+      </div>
+      <label for="phone_input">Телефон</label>
+      <div class="icon-input">
+        <input type="text" id="phone_input" class="input-style" name="phone">
+        <svg class="phone-svg">
+          <use href="./images/icon3/Phone.svg#icon-Phone"></use>
+        </svg>
+      </div>
+      <label for="mail_input">Почта</label>
+      <div class="icon-input">
+        <input type="text" id="mail_input" class="input-style" name="mail">
+        <svg class="post-svg">
+          <use href="./images/icon3/post.svg#icon-post"></use>
+        </svg>
+      </div>
+      <label for="comment_input">Комментарий</label>
+      <div class="icon-input">
+        <textarea name="comment" id="comment_input" placeholder="Введите текст"></textarea>
+      </div>
+      <div class="policy">
+        <input type="checkbox" id="checkbox_inp" name="policy" class="visually-hidden check">
+        <label class="check-label" for="checkbox_inp">Соглашаюсь с рассылкой и принимаю
+          <a href="" class="policy_link">Условия договора</a>
+        </label>
+      </div>
+      <button class="send_form">Отправить</button>
+    </form>
+  </div>
+</div>
+
 
 <script src="./js/modal.js"></script>
 
